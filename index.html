@@ -6,16 +6,18 @@
         <meta name="viewport", content="width=device-width">
         <link rel="stylesheet" href="./style.css">
         <title>Bgchat.com</title>
+        <script src="https://kit.fontawesome.com/fc06f65f62.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <div class="greenHead"></div>
+        <div class="ashHead"></div>
         <div class="header" id="header">
             <h2><em>Babban Gona Staff Chatting Dashboard</em></h2>
         </div>
         <div class="mainDashboard" id="mainDashboard">
             <div class="userFriends" id="userFriends">
+                <div class="top-search" id="search"><input type="search" placeholder="Search or start a new chat"></div>
                 <fieldset>
-                    <input type="search" placeholder="Search">
-                    <br><hr>
                     <button type="submit" id="btn1" class="btn1">Kola</button>
                     <br><hr>
                     <button type="submit" id="btn2" class="btn2">Lola</button>
@@ -34,22 +36,24 @@
                     <br><hr>
                     <button type="submit" id="btn9" class="btn9">Isah</button>
                     <br><hr>
-                    <button type="submit" id="btn10" class="btn10">Hadi</button>
-                    <br><hr>
-                    <button type="submit" id="btn11" class="btn11">Chinenye</button>
-                    <hr>
+                    <button type="submit" id="btn10" class="btn10">Chinenye</button>
                 </fieldset>
             </div>
             
             <div class="chatBody" id="chatBody">
-                <h3  class="userHeader" id="userHeader"></h3>
+                <h3  class="userHeader" id="userHeader">
+                    <p><em>&copy;Dashboard designed by Onipinsaiye Victor</em></p>
+                </h3>
                 <div class="chatbox" id="chatbox">
                     <ul>
 
                     </ul>
                 </div>
-                <input id="messageInput" class="messageInput" type="search" placeholder="write a message...">
-                <input class="btnSend" id="btnSend" type="submit" value="Send">
+                <div class="message-background">
+                    <input id="messageInput" class="messageInput" type="search" placeholder="Type a message...">
+                    <input class="btnSend" id="btnSend" type="submit" value="Send">
+                </div>
+                
                 
     
         

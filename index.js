@@ -14,37 +14,44 @@ const message = document.querySelector("#messageInput")
 
 button1.addEventListener("click", function(){
     document.querySelector("h3").innerHTML = "<em>Chatting with Kola...</em>";
+    button1.style.backgroundColor = "#E8E8E8";
 })
 button2.addEventListener("click", function(){
     document.querySelector("h3").innerHTML = "<em>Chatting with Lola....</em>";
+    button2.style.backgroundColor = "#E8E8E8";
 })
 button3.addEventListener("click", function(){
     document.querySelector("h3").innerHTML = "<em>Chatting with Yusuf....</em>";
+    button3.style.backgroundColor = "#E8E8E8";
     document.querySelector("ul").value = "";
 })
 button4.addEventListener("click", function(){
     document.querySelector("h3").innerHTML = "<em>Chatting with Segun....</em>";
+    button4.style.backgroundColor = "#E8E8E8";
 })
 button5.addEventListener("click", function(){
     document.querySelector("h3").innerHTML = "<em>Chatting with Deji....</em>";
+    button5.style.backgroundColor = "#E8E8E8";
 })
 button6.addEventListener("click", function(){
     document.querySelector("h3").innerHTML = "<em>Chatting with Azeezat....</em>";
+    button6.style.backgroundColor = "#E8E8E8";
 })
 button7.addEventListener("click", function(){
     document.querySelector("h3").innerHTML = "<em>Chatting with Kayode....</em>";
+    button7.style.backgroundColor = "#E8E8E8";
 })
 button8.addEventListener("click", function(){
     document.querySelector("h3").innerHTML = "<em>Chatting with Belikisu....</em>";
+    button8.style.backgroundColor = "#E8E8E8";
 })
 button9.addEventListener("click", function(){
     document.querySelector("h3").innerHTML = "<em>Chatting with Isah....</em>";
+    button9.style.backgroundColor = "#E8E8E8";
 })
 button10.addEventListener("click", function(){
-    document.querySelector("h3").innerHTML = "<em>Chatting with Hadi....</em>";
-})
-button11.addEventListener("click", function(){
     document.querySelector("h3").innerHTML = "<em>Chatting with Chinenye....</em>";
+    button1.style.backgroundColor = "#E8E8E8";
 })
 
 sendButton.addEventListener("click", function(){
